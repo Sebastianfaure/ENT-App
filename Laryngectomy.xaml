@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ENT_APP.Laryngectomy">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="What is the larynx?" 
+                   x:Name="larynx"
+                   
+                   FontSize="16" 
+                   TextColor="Black" 
+                   Padding="30,0,30,0"/>
+
+            <Label FontSize="19">
+
+
+
+            </Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
