@@ -5,12 +5,12 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Frame BackgroundColor="Blue" Padding="24" CornerRadius="0">
-                    <Label Text="My Surgery" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>
+                <Frame BackgroundColor="#0021A5" Padding="24" CornerRadius="0">
+                    <Label Text="My Surgery" FontFamily="Arial" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>
                 </Frame>
 
 
-                <Label Text="Common procedures:" FontSize="16" TextColor="Black"  Padding="30,0,30,0"/>
+                <Label Text="Common procedures:" FontSize="20" FontAttributes="Bold" TextColor="Black"  Padding="30,0,0,0"/>
                 <Label FontSize="19">
 
 
@@ -65,7 +65,7 @@
         HeightRequest="75" />
 
 
-                <Label Text="Other surgeries:" FontSize="16" TextColor="Black"  Padding="30,0,30,0"/>
+                <Label Text="Other surgeries:" FontSize="20" FontAttributes="Bold" TextColor="Black"  Padding="30,0,30,0"/>
                 <Label FontSize="19">
 
 
@@ -87,7 +87,7 @@
                 <Button Text="Total Laryngectomy"
                     x:Name="TotalLaryngectomy"
                     Clicked="TotalLaryngectomy_Clicked"
-        TextColor="Turquoise"
+        TextColor="Black"
         FontSize="20"
         FontAttributes="Bold"
         BackgroundColor="White"
