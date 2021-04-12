@@ -4,32 +4,37 @@
              xmlns:local="clr-namespace:ENT_APP"
              x:Class="ENT_APP.MeetTheTeam">
     <ContentPage.Content>
-        <CollectionView
+        <StackLayout>
+            <Frame BackgroundColor="#0021A5" Padding="24" CornerRadius="0">
+                <Label Text="Meet the Team" FontFamily="Arial" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>
+            </Frame>
+            <CollectionView
             Grid.ColumnSpan="2"
             x:Name="MeetTeam"
             SelectionMode="None"
             ItemsLayout="VerticalList"
             ItemsSource="{Binding listOfDoctors}" >
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Padding="10" ColumnSpacing="10" RowSpacing="10" Margin="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="100"/>
-                            <RowDefinition Height="100"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="2*"/>
-                            <ColumnDefinition Width="2.5*"/>
-                        </Grid.ColumnDefinitions>
-                        <Image Source="{Binding ImageURL}" Grid.RowSpan="2" Grid.Column="0"></Image>
-                        <Label Text="{Binding DoctorName}" FontSize="20" FontAttributes="Bold" Grid.Row="0" Grid.Column="1"></Label>
-                        <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="1"></Label>
-                        <BoxView Grid.Row="2" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10" ColumnSpacing="10" RowSpacing="10" Margin="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100"/>
+                                <RowDefinition Height="100"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="2.5*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding ImageURL}" Grid.RowSpan="2" Grid.Column="0"></Image>
+                            <Label Text="{Binding DoctorName}" FontSize="20" FontAttributes="Bold" Grid.Row="0" Grid.Column="1"></Label>
+                            <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="1"></Label>
+                            <BoxView Grid.Row="2" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"
                                  VerticalOptions="Center" HeightRequest="3" BackgroundColor="DarkGray"/>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
     
