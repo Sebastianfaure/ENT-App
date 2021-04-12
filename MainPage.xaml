@@ -1,14 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ENT_APP"
              x:Class="ENT_APP.MainPage">
 
-    <StackLayout>
-        <Frame BackgroundColor="Blue" Padding="24" CornerRadius="0">
-            <Label Text="UF Health" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>
+    <ScrollView HeightRequest="750">
+        <StackLayout HeightRequest="750">
+            <Frame BackgroundColor="DodgerBlue" Padding="24" CornerRadius="0">
+            <StackLayout>
+                <Image HorizontalOptions="Center" VerticalOptions="Center" Source="{local:EmbeddedImage ENT_APP.Images.UF_health.png}" />
+            </StackLayout>
+            <!--<Label Text="UF Health" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>-->
         </Frame>
-
-        <Label Text="Welcome to the University of Florida Department of Otolaryngology's Patient Education App. We hope you can use this app to learn more about your surgery and help answer any questions you might have." FontSize="16" TextColor="Black"  Padding="30,0,30,0"/>
+        
+        <Label Text="Welcome to the University of Florida Department of Otolaryngology's Patient Education App. We hope you can use this app to learn more about your surgery and help answer any questions you might have." 
+               FontSize="20"
+               TextColor="Black"
+               Padding="30,20,30,0"/>
         <Label FontSize="19">
 
 
@@ -25,23 +33,23 @@
         </Label>
 
         <Button Text="Meet the Team"
-                  
-        TextColor="Turquoise"
+            x:Name="MeetTheTeam"
+            Clicked="MeetTheTeam_ClickedAsync"
+        TextColor="Black"
         FontSize="20"
         FontAttributes="Bold"
-        BackgroundColor="White"
+        BackgroundColor="RoyalBlue"
         BorderColor="Black"
         BorderWidth="2"
         CornerRadius="5"
         WidthRequest="150"
-        HeightRequest="75" 
-              />
+        HeightRequest="75" />
 
         <Button Text="Information about Head and Neck Cancer"
         TextColor="Black"
         FontSize="20"
         FontAttributes="Bold"
-        BackgroundColor="White"
+        BackgroundColor="RoyalBlue"
         BorderColor="Black"
         BorderWidth="2"
         CornerRadius="5"
@@ -51,10 +59,10 @@
         <Button Text="My Surgery"
                 x:Name="MySurgery"
                 Clicked="MySurgery_ClickedAsync"
-        TextColor="Turquoise"
+        TextColor="Black"
         FontSize="20"
         FontAttributes="Bold"
-        BackgroundColor="White"
+        BackgroundColor="RoyalBlue"
         BorderColor="Black"
         BorderWidth="2"
         CornerRadius="5"
@@ -62,10 +70,10 @@
         HeightRequest="75" />
 
         <Button Text="Post-Op Follow Up"
-        TextColor="Turquoise"
+        TextColor="Black"
         FontSize="20"
         FontAttributes="Bold"
-        BackgroundColor="White"
+        BackgroundColor="RoyalBlue"
         BorderColor="Black"
         BorderWidth="2"
         CornerRadius="5"
@@ -73,6 +81,7 @@
         HeightRequest="75" />
         <!--<Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>-->
 
-    </StackLayout>
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>
