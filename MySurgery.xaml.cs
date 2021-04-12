@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ENT_APP
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MySurgery2 : ContentPage
+    public partial class MySurgery : ContentPage
     {
-        public MySurgery2()
+        public MySurgery()
         {
             InitializeComponent();
         }
