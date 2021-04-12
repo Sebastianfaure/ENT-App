@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ENT_APP.MySurgery">
+             x:Class="ENT_APP.MySurgery2">
     <ContentPage.Content>
+        <ScrollView> 
         <StackLayout>
             <Frame BackgroundColor="Blue" Padding="24" CornerRadius="0">
                 <Label Text="My Surgery" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>
@@ -130,5 +131,6 @@
         HeightRequest="75" />
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
