@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -19,9 +19,9 @@ namespace ENT_APP
             //await MeettheTeamButton.RelRotateTo(360, 1000);
         }
 
-        private async void MeettheTeamButton_Clicked(object sender, EventArgs e)
+        private async void MeetTheTeam_ClickedAsync(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new MeetTheTeam());
         }
 
         private async void MySurgery_ClickedAsync(object sender, EventArgs e)
