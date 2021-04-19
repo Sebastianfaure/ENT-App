@@ -5,8 +5,8 @@
              x:Class="ENT_APP.MeetTheTeam">
     <ContentPage.Content>
         <StackLayout>
-            <Frame BackgroundColor="#0021A5" Padding="24" CornerRadius="0">
-                <Label Text="Meet the Team" FontFamily="Arial" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>
+            <Frame BackgroundColor="#0021A5" Padding="10" CornerRadius="0">
+                <Label Text="Meet the Team" FontFamily="Arial" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" FontSize="30" Padding="40,0,40,0"/>
             </Frame>
             <CollectionView
             Grid.ColumnSpan="2"
