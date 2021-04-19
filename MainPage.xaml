@@ -37,6 +37,8 @@
             HeightRequest="75" />
 
             <Button Text="Head and Neck Cancer Information"
+                    x:Name="HeadandNeckCancerInformation"
+                    Clicked="HeadandNeckCancerInformation_ClickedAsync"
             TextColor="White"
             FontSize="22"
             FontAttributes="Bold"
