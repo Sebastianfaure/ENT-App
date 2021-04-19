@@ -21,5 +21,15 @@ namespace ENT_APP
         {
 
         }
+
+        private async void quiz1_ClickedAsync(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new quiz1());
+        }
+
+        private async void quiz2_ClickedAsync(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new quiz2());
+        }
     }
 }
