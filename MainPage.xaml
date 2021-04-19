@@ -15,7 +15,7 @@
                 </AbsoluteLayout>
                 <!--<Label Text="UF Health" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>-->
             </Frame>
-        
+
             <Label Text="Welcome to the University of Florida Department of Otolaryngology's Patient Education App. We hope you can use this app to learn more about your surgery and help answer any questions you might have." 
                    FontSize="20"
                    TextColor="Black"
@@ -64,6 +64,8 @@
             HeightRequest="75" />
 
             <Button Text="Post-Op Follow Up"
+                    x:Name="PostOpFollowUp"
+                    Clicked="PostOpFollowUp_ClickedAsync"
             TextColor="White"
             FontSize="24"
             FontAttributes="Bold"
