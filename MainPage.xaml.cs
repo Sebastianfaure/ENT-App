@@ -14,10 +14,10 @@ namespace ENT_APP
         {
             InitializeComponent();
         }
-        async void OnButtonClicked(object sender, EventArgs args)
-        {
+        //async void OnButtonClicked(object sender, EventArgs args)
+        //{
             //await MeettheTeamButton.RelRotateTo(360, 1000);
-        }
+        //}
 
         private async void MeetTheTeam_ClickedAsync(object sender, EventArgs e)
         {
@@ -32,6 +32,11 @@ namespace ENT_APP
         private async void PostOpFollowUp_ClickedAsync(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new PostOpFollowUp());
+        }
+
+        private async void HeadandNeckCancerInformation_ClickedAsync(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ComingSoon());
         }
     }
 }
