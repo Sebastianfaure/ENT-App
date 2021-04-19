@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +15,11 @@ namespace ENT_APP
         public PostOpFollowUp()
         {
             InitializeComponent();
+        }
+
+        private async void MySurgery_ClickedAsync(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MySurgery());
         }
     }
 }
