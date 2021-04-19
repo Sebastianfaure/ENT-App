@@ -4,22 +4,17 @@
              x:Class="ENT_APP.Laryngectomy">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout>
+            <StackLayout>
 
-            <Label Text="What is the larynx?" 
+                <Label Text="What is the larynx?" 
                    x:Name="larynx"
-                   
-                   FontSize="16" 
-                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   FontSize="24" 
+                   TextColor="Black"
+                   Margin="0,20,0,10"
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
-
-
-
-            </Label>
-
-            <Label Text="
+                <Label Text="
 The larynx (LA-ER-INKS) is the medical name for your voice box. Your larynx is in the front of your neck and sits behind the cartilage known as the adam's apple, on top of your windpipe (trachea), in front of your food pipe (esophagus), and below your throat (pharynx). Your larynx allows you to speak, breathe, and swallow normally. It is made up of different types of tissues including cartilage, muscles, and ligaments. These all work together to allow you to make different sounds, breathe, and protect your airway when swallowing.
  
 The larynx has 3 different parts: upper, middle, and lower. Your doctor might use these terms or the terms in parenthesis below to describe where your cancer is.
@@ -32,29 +27,19 @@ Lower (subglottis): Subglottis refers to the lower area of your larynx below you
                    x:Name="larynx_ans"
                    
                    FontSize="16" 
-                   TextColor="Black" 
+                   TextColor="Black"
+                    Margin="0,0,0,10"
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
-
-
-
-            </Label>
-
-            <Label Text="What is a laryngectomy?" 
+                <Label Text="What is a laryngectomy?" 
                    x:Name="laryngectomy"
-                   
-                   FontSize="16" 
-                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   FontSize="24" 
+                   TextColor="Black"
+                   Margin="0,20,0,10"
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
-
-
-
-            </Label>
-
-            <Label Text="A laryngectomy (LA-RIN-JEK-TOMY) is a surgery to remove part or all of your larynx because of cancer. The amount of your larynx and surrounding tissues that are removed is dependent on the size and location of your cancer and how deeply it has spread. To reduce the chance of any cancer left behind, your surgeon will take a small layer of normal looking tissue surrounding the cancer as well.
+                <Label Text="A laryngectomy (LA-RIN-JEK-TOMY) is a surgery to remove part or all of your larynx because of cancer. The amount of your larynx and surrounding tissues that are removed is dependent on the size and location of your cancer and how deeply it has spread. To reduce the chance of any cancer left behind, your surgeon will take a small layer of normal looking tissue surrounding the cancer as well.
  
 There are two main kinds of laryngectomies: partial and total.
  
@@ -63,85 +48,59 @@ Partial laryngectomy describes a surgery where your surgeon removes only part of
 Total laryngectomy describes a surgery where your surgeon removes all of your voice box for the purpose of cancer treatment. Depending on the extent of your tumor, your surgeon may remove part or all of your pharynx (FA-ER-INKS) as well, this is called a laryngopharyngectomy.  Your pharynx is the tube that connects your nose and mouth to your windpipe and esophagus, also known as the throat.
 " 
                    x:Name="laryngectomy_ans"
-                   
+                   Margin="0,0,0,10"
                    FontSize="16" 
                    TextColor="Black" 
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
-
-
-
-            </Label>
-
-            <Label Text="Why do I need a laryngectomy?" 
+                <Label Text="Why do I need a laryngectomy?" 
                    x:Name="why_laryngectomy"
-                   
-                   FontSize="16" 
-                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   FontSize="24" 
+                   TextColor="Black"
+                   Margin="0,20,0,10"
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
-
-
-
-            </Label>
-
-            <Label Text="Emotions after surgery." 
+                <Label Text="Emotions after surgery." 
                    x:Name="emotions"
-                   
-                   FontSize="16" 
-                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   FontSize="24" 
+                   TextColor="Black"
+                   Margin="0,20,0,10"
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
 
-
-
-            </Label>
-
-            <Label Text="How can I help my recovery?" 
+                <Label Text="How can I help my recovery?" 
                    x:Name="recovery"
-                   
-                   FontSize="16" 
-                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   FontSize="24" 
+                   TextColor="Black"
+                   Margin="0,20,0,10"
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
 
 
-
-            </Label>
-
-
-            <Label Text="When to call my doctor" 
+                <Label Text="When to call my doctor?" 
                    x:Name="doctor"
-                   
-                   FontSize="16" 
-                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   FontSize="24" 
+                   TextColor="Black"
+                   Margin="0,20,0,10"
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
 
-
-
-            </Label>
-
-            <Label Text="Questions to ask your doctor:" 
+                <Label Text="Questions to ask your doctor:" 
                    x:Name="doctor_questions"
-                   
-                   FontSize="16" 
-                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   FontSize="24" 
+                   TextColor="Black"
+                   Margin="0,20,0,20"
                    Padding="30,0,30,0"/>
 
-            <Label FontSize="19">
 
-
-
-            </Label>
-
-            <Button Text="Quiz 1: Take BEFORE your surgery"
-                
+                <Button Text="Quiz 1: Take BEFORE your surgery"
+        x:Name="quiz1"
+        Clicked="quiz1_ClickedAsync"
         TextColor="Black"
         FontSize="20"
         FontAttributes="Bold"
@@ -153,8 +112,9 @@ Total laryngectomy describes a surgery where your surgeon removes all of your vo
         HeightRequest="75" 
               />
 
-            <Button Text="Quiz 2: Take AFTER your surgery"
-                
+                <Button Text="Quiz 2: Take AFTER your surgery"
+        x:Name="quiz2"
+        Clicked="quiz2_ClickedAsync"
         TextColor="Black"
         FontSize="20"
         FontAttributes="Bold"
@@ -167,8 +127,7 @@ Total laryngectomy describes a surgery where your surgeon removes all of your vo
               />
 
 
-            <Button Text="See My Anatomy"
-                
+                <Button Text="See My Anatomy"
         TextColor="Black"
         FontSize="20"
         FontAttributes="Bold"
@@ -180,7 +139,7 @@ Total laryngectomy describes a surgery where your surgeon removes all of your vo
         HeightRequest="75" 
               />
 
-        </StackLayout>
+            </StackLayout>
         </ScrollView>
 
     </ContentPage.Content>
