@@ -28,5 +28,10 @@ namespace ENT_APP
         {
             await Navigation.PushAsync(new MySurgery());
         }
+
+        private async void PostOpFollowUp_ClickedAsync(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PostOpFollowUp());
+        }
     }
 }
