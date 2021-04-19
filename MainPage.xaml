@@ -4,82 +4,77 @@
              xmlns:local="clr-namespace:ENT_APP"
              x:Class="ENT_APP.MainPage">
 
-    <ScrollView HeightRequest="750">
-        <StackLayout HeightRequest="750">
-            <Frame BackgroundColor="DodgerBlue" Padding="24" CornerRadius="0">
-            <StackLayout>
-                <Image HorizontalOptions="Center" VerticalOptions="Center" Source="{local:EmbeddedImage ENT_APP.Images.UF_health.png}" />
-            </StackLayout>
-            <!--<Label Text="UF Health" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>-->
-        </Frame>
+    <ScrollView HeightRequest="825">
+        <StackLayout HeightRequest="825">
+            <Frame BackgroundColor="#A8DCD9" Padding="24" CornerRadius="0">
+
+                <AbsoluteLayout VerticalOptions="FillAndExpand">
+                    <StackLayout  AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1" AbsoluteLayout.LayoutFlags="PositionProportional">
+                        <Image Margin="0, 0, -33, -12" HorizontalOptions="Center" VerticalOptions="Center" Source="{local:EmbeddedImage ENT_APP.Images.UF_health.png}" />
+                    </StackLayout>
+                </AbsoluteLayout>
+                <!--<Label Text="UF Health" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" Padding="40,0,40,0"/>-->
+            </Frame>
         
-        <Label Text="Welcome to the University of Florida Department of Otolaryngology's Patient Education App. We hope you can use this app to learn more about your surgery and help answer any questions you might have." 
-               FontSize="20"
-               TextColor="Black"
-               Padding="30,20,30,0"/>
-        <Label FontSize="19">
+            <Label Text="Welcome to the University of Florida Department of Otolaryngology's Patient Education App. We hope you can use this app to learn more about your surgery and help answer any questions you might have." 
+                   FontSize="20"
+                   TextColor="Black"
+                   Padding="30,20,30,0"/>
+            <Label FontSize="19"/>
 
+            <Button Text="Meet the Team"
+                x:Name="MeetTheTeam"
+                Clicked="MeetTheTeam_ClickedAsync"
+            TextColor="White"
+            FontSize="24"
+            FontAttributes="Bold"
+            BackgroundColor="#0021A5"
+            BorderColor="Black"
+            Margin="20,10,20,10"
+            BorderWidth="2"
+            CornerRadius="50"
+            WidthRequest="150"
+            HeightRequest="75" />
 
-            <!--<Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        -->
-            <!--<Span Text="Learn more at "/>
-                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>-->
-            <!--
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>-->
-        </Label>
+            <Button Text="Head and Neck Cancer Information"
+            TextColor="White"
+            FontSize="22"
+            FontAttributes="Bold"
+            BackgroundColor="#0021A5"
+            BorderColor="Black"
+            BorderWidth="2"
+            CornerRadius="50"
+            Padding="10,10,10,10"
+            Margin="20,10,20,10"
+            WidthRequest="150"
+            HeightRequest="75" />
 
-        <Button Text="Meet the Team"
-            x:Name="MeetTheTeam"
-            Clicked="MeetTheTeam_ClickedAsync"
-        TextColor="White"
-        FontSize="20"
-        FontAttributes="Bold"
-        BackgroundColor="#0021A5"
-        BorderColor="Black"
-        BorderWidth="2"
-        CornerRadius="5"
-        WidthRequest="150"
-        HeightRequest="75" />
+            <Button Text="My Surgery"
+                    x:Name="MySurgery"
+                    Clicked="MySurgery_ClickedAsync"
+            TextColor="White"
+            FontSize="24"
+            FontAttributes="Bold"
+            BackgroundColor="#0021A5"
+            BorderColor="Black"
+            BorderWidth="2"
+            CornerRadius="50"
+            Margin="20,10,20,10"
+            WidthRequest="150"
+            HeightRequest="75" />
 
-        <Button Text="Information about Head and Neck Cancer"
-        TextColor="White"
-        FontSize="20"
-        FontAttributes="Bold"
-        BackgroundColor="#0021A5"
-        BorderColor="Black"
-        BorderWidth="2"
-        CornerRadius="5"
-        WidthRequest="150"
-        HeightRequest="75" />
-
-        <Button Text="My Surgery"
-                x:Name="MySurgery"
-                Clicked="MySurgery_ClickedAsync"
-        TextColor="White"
-        FontSize="20"
-        FontAttributes="Bold"
-        BackgroundColor="#0021A5"
-        BorderColor="Black"
-        BorderWidth="2"
-        CornerRadius="5"
-        WidthRequest="150"
-        HeightRequest="75" />
-
-        <Button Text="Post-Op Follow Up"
-        TextColor="White"
-        FontSize="20"
-        FontAttributes="Bold"
-        BackgroundColor="#0021A5"
-        BorderColor="Black"
-        BorderWidth="2"
-        CornerRadius="5"
-        WidthRequest="150"
-        HeightRequest="75" />
-        <!--<Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>-->
+            <Button Text="Post-Op Follow Up"
+            TextColor="White"
+            FontSize="24"
+            FontAttributes="Bold"
+            BackgroundColor="#0021A5"
+            BorderColor="Black"
+            BorderWidth="2"
+            CornerRadius="50"
+            Margin="20,10,20,10"
+            WidthRequest="150"
+            HeightRequest="75" />
+            <!--<Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>-->
 
         </StackLayout>
     </ScrollView>
