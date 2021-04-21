@@ -26,8 +26,8 @@
                                 <ColumnDefinition Width="2.5*"/>
                             </Grid.ColumnDefinitions>
                             <Image Source="{Binding ImageURL}" Grid.RowSpan="2" Grid.Column="0"></Image>
-                            <Label Text="{Binding DoctorName}" FontSize="20" FontAttributes="Bold" Grid.Row="0" Grid.Column="1"></Label>
-                            <Label Text="{Binding Description}" Grid.Row="1" Grid.Column="1"></Label>
+                            <Label Text="{Binding DoctorName}" Margin="0,45,-70,0" TextColor="Black" FontSize="20" FontAttributes="Bold" Grid.Row="0" Grid.Column="1"></Label>
+                            <Label Text="{Binding Description}" Margin="0,-30,-50,0" Grid.Row="1" Grid.Column="1"></Label>
                             <BoxView Grid.Row="2" HorizontalOptions="FillAndExpand" Grid.ColumnSpan="3"
                                  VerticalOptions="Center" HeightRequest="3" BackgroundColor="DarkGray"/>
                         </Grid>
