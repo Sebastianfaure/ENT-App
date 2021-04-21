@@ -12,7 +12,7 @@ namespace ENT_APP
 
         public MainViewDescription()
         {
-            listOfExpandableDescriptions = new List<ExpandableDescription>()
+            listOfExpandableDescriptions = new ObservableCollection<ExpandableDescription>()
             {
                 new ExpandableDescription
                 {
@@ -43,45 +43,63 @@ namespace ENT_APP
                 new ExpandableDescription
                 {
                     title = "Why do I need a laryngectomy?",
-                    description = "Coming soon",
                     downURL = "downImage.png",
-                    upURL = "upImage.png"
+                    upURL = "upImage.png",
+                    Descriptions = new ObservableCollection<InnerDescription>
+                    {
+                        new InnerDescription{description=""}
+                    }
 
                 },
                 new ExpandableDescription
                 {
                     title = "How is a laryngectomy performed?",
-                    description = "Coming soon",
                     downURL = "downImage.png",
-                    upURL = "upImage.png"
+                    upURL = "upImage.png",
+                    Descriptions = new ObservableCollection<InnerDescription>
+                    {
+                        new InnerDescription{description=""}
+                    }
                 },
                 new ExpandableDescription
                 {
                     title = "Emotions after surgery.",
-                    description = "Coming soon",
                     downURL = "downImage.png",
-                    upURL = "upImage.png"
+                    upURL = "upImage.png",
+                    Descriptions = new ObservableCollection<InnerDescription>
+                    {
+                        new InnerDescription{description=""}
+                    }
                 },
                 new ExpandableDescription
                 {
                     title = "How can I helpy my recovery?",
-                    description = "Coming soon",
                     downURL = "downImage.png",
-                    upURL = "upImage.png"
+                    upURL = "upImage.png",
+                    Descriptions = new ObservableCollection<InnerDescription>
+                    {
+                        new InnerDescription{description=""}
+                    }
                 },
                 new ExpandableDescription
                 {
                     title = "When to call my doctor",
-                    description = "Coming soon",
                     downURL = "downImage.png",
-                    upURL = "upImage.png"
+                    upURL = "upImage.png",
+                    Descriptions = new ObservableCollection<InnerDescription>
+                    {
+                        new InnerDescription{description=""}
+                    }
                 },
                 new ExpandableDescription
                 {
                     title = "Questions to ask your doctor:",
-                    description = "Coming soon",
                     downURL = "downImage.png",
-                    upURL = "upImage.png"
+                    upURL = "upImage.png",
+                    Descriptions = new ObservableCollection<InnerDescription>
+                    {
+                        new InnerDescription{description=""}
+                    }
                 }
 
             };
