@@ -37,7 +37,8 @@ namespace ENT_APP
                     {
                         new InnerDescription{description="A laryngectomy (LA-RIN-JEK-TOMY) is a surgery to remove part or all of your larynx because of cancer. The amount of your larynx and surrounding tissues that are removed is dependent on the size and location of your cancer and how deeply it has spread. To reduce the chance of any cancer left behind, your surgeon will take a small layer of normal looking tissue surrounding the cancer as well."},
                         new InnerDescription{description="There are two main kinds of laryngectomies: partial and total."},
-                        new InnerDescription{description="Partial laryngectomy describes a surgery where your surgeon removes only part of your larynx for the purpose of cancer treatment. This is usually done with smaller cancers that are confined"}
+                        new InnerDescription{description="Partial laryngectomy describes a surgery where your surgeon removes only part of your larynx for the purpose of cancer treatment. This is usually done with smaller cancers that are confined to one area of your voice box."},
+                        new InnerDescription{description="Total laryngectomy describes a surgery where your surgeon removes all of your voice box for the purpose of cancer treatment. Depending on the extent of your tumor, your surgeon may remove part or all of your pharynx (FA-ER-INKS) as well, this is called a laryngopharyngectomy.  Your pharynx is the tube that connects your nose and mouth to your windpipe and esophagus, also known as the throat."}
                     }
                 },
                 new ExpandableDescription
@@ -47,7 +48,7 @@ namespace ENT_APP
                     upURL = "upImage.png",
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description=""}
+                        new InnerDescription{description="Coming soon"}
                     }
 
                 },
@@ -58,7 +59,7 @@ namespace ENT_APP
                     upURL = "upImage.png",
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description=""}
+                        new InnerDescription{description="Coming soon"}
                     }
                 },
                 new ExpandableDescription
@@ -68,7 +69,7 @@ namespace ENT_APP
                     upURL = "upImage.png",
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description=""}
+                        new InnerDescription{description="Coming soon"}
                     }
                 },
                 new ExpandableDescription
@@ -78,7 +79,7 @@ namespace ENT_APP
                     upURL = "upImage.png",
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description=""}
+                        new InnerDescription{description="Coming soon"}
                     }
                 },
                 new ExpandableDescription
@@ -88,7 +89,7 @@ namespace ENT_APP
                     upURL = "upImage.png",
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description=""}
+                        new InnerDescription{description="Coming soon"}
                     }
                 },
                 new ExpandableDescription
@@ -98,7 +99,7 @@ namespace ENT_APP
                     upURL = "upImage.png",
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description=""}
+                        new InnerDescription{description="Coming soon"}
                     }
                 }
 
