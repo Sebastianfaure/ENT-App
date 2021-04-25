@@ -17,8 +17,9 @@ namespace ENT_APP
                 new ExpandableDescription
                 {
                     title = "What is the larynx?",
-                    downURL="downImage.png",
-                    upURL="upImage.png",
+                    //downURL="downImage.png",
+                    //upURL="upImage.png",
+                    IsVisible = false,
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
                         new InnerDescription{description="The larynx (LA-ER-INKS) is the medical name for your voice box. Your larynx is in the front of your neck and sits behind the cartilage known as the “adam’s apple”, on top of your windpipe (trachea), in front of your food pipe (esophagus), and below your throat (pharynx). Your larynx allows you to speak, breathe, and swallow normally. It is made up of different types of tissues including cartilage, muscles, and ligaments. These all work together to allow you to make different sounds, breathe, and protect your airway when swallowing."},
@@ -31,82 +32,85 @@ namespace ENT_APP
                 new ExpandableDescription
                 {
                     title = "What is a laryngectomy?",
-                    downURL = "downImage.png",
-                    upURL = "upImage.png",
+                    //downURL = "downImage.png",
+                    //upURL = "upImage.png",
+                    IsVisible = false,
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
                         new InnerDescription{description="A laryngectomy (LA-RIN-JEK-TOMY) is a surgery to remove part or all of your larynx because of cancer. The amount of your larynx and surrounding tissues that are removed is dependent on the size and location of your cancer and how deeply it has spread. To reduce the chance of any cancer left behind, your surgeon will take a small layer of normal looking tissue surrounding the cancer as well."},
                         new InnerDescription{description="There are two main kinds of laryngectomies: partial and total."},
-                        new InnerDescription{description="Partial laryngectomy describes a surgery where your surgeon removes only part of your larynx for the purpose of cancer treatment. This is usually done with smaller cancers that are confined to one area of your voice box."},
-                        new InnerDescription{description="Total laryngectomy describes a surgery where your surgeon removes all of your voice box for the purpose of cancer treatment. Depending on the extent of your tumor, your surgeon may remove part or all of your pharynx (FA-ER-INKS) as well, this is called a laryngopharyngectomy.  Your pharynx is the tube that connects your nose and mouth to your windpipe and esophagus, also known as the throat."}
+                        new InnerDescription{description="Partial laryngectomy describes a surgery where your surgeon removes only part of your larynx for the purpose of cancer treatment. This is usually done with smaller cancers that are confined"}
                     }
                 },
                 new ExpandableDescription
                 {
                     title = "Why do I need a laryngectomy?",
-                    downURL = "downImage.png",
-                    upURL = "upImage.png",
+                    //downURL = "downImage.png",
+                    //upURL = "upImage.png",
+                    IsVisible = false,
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description="Coming soon"}
+                        new InnerDescription{description="Coming Soon!"}
                     }
 
                 },
                 new ExpandableDescription
                 {
                     title = "How is a laryngectomy performed?",
-                    downURL = "downImage.png",
-                    upURL = "upImage.png",
+                    //downURL = "downImage.png",
+                    //upURL = "upImage.png",
+                    IsVisible = false,
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description="Coming soon"}
+                        new InnerDescription{description="Coming Soon!"}
                     }
                 },
                 new ExpandableDescription
                 {
-                    title = "Emotions after surgery.",
-                    downURL = "downImage.png",
-                    upURL = "upImage.png",
+                    title = "Emotions after surgery:",
+                    //downURL = "downImage.png",
+                    //upURL = "upImage.png",
+                    IsVisible = false,
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description="Coming soon"}
+                        new InnerDescription{description="Coming Soon!"}
                     }
                 },
                 new ExpandableDescription
                 {
                     title = "How can I helpy my recovery?",
-                    downURL = "downImage.png",
-                    upURL = "upImage.png",
+                    //downURL = "downImage.png",
+                    //upURL = "upImage.png",
+                    IsVisible = false,
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description="Coming soon"}
+                        new InnerDescription{description="Coming Soon!"}
                     }
                 },
                 new ExpandableDescription
                 {
-                    title = "When to call my doctor",
-                    downURL = "downImage.png",
-                    upURL = "upImage.png",
+                    title = "When do I call my doctor?",
+                    //downURL = "downImage.png",
+                    //upURL = "upImage.png",
+                    IsVisible = false,
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description="Coming soon"}
+                        new InnerDescription{description="Coming Soon!"}
                     }
                 },
                 new ExpandableDescription
                 {
                     title = "Questions to ask your doctor:",
-                    downURL = "downImage.png",
-                    upURL = "upImage.png",
+                    //downURL = "downImage.png",
+                    //upURL = "upImage.png",
+                    IsVisible = false,
                     Descriptions = new ObservableCollection<InnerDescription>
                     {
-                        new InnerDescription{description="Coming soon"}
+                        new InnerDescription{description="Coming Soon!"}
                     }
                 }
 
             };
-
-
-
 
         }
 
@@ -145,8 +149,8 @@ namespace ENT_APP
         public string title { get; set; }
         public bool IsVisible { get; set; }
         public ObservableCollection<InnerDescription> Descriptions { get; set; }
-        public string downURL { get; set; }
-        public string upURL { get; set; }
+        //public string downURL { get; set; }
+        //public string upURL { get; set; }
     }
 
     public class InnerDescription
