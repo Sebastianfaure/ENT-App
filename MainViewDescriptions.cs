@@ -16,7 +16,7 @@ namespace ENT_APP
             {
                 new ExpandableDescription
                 {
-                    title = "What is the larynx?",
+                    Title = "What is the larynx?",
                     //downURL="downImage.png",
                     //upURL="upImage.png",
                     IsVisible = false,
@@ -31,7 +31,7 @@ namespace ENT_APP
                 },
                 new ExpandableDescription
                 {
-                    title = "What is a laryngectomy?",
+                    Title = "What is a laryngectomy?",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -45,7 +45,7 @@ namespace ENT_APP
                 },
                 new ExpandableDescription
                 {
-                    title = "Why do I need a laryngectomy?",
+                    Title = "Why do I need a laryngectomy?",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -58,7 +58,7 @@ namespace ENT_APP
                 },
                 new ExpandableDescription
                 {
-                    title = "How is a laryngectomy performed?",
+                    Title = "How is a laryngectomy performed?",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -69,7 +69,7 @@ namespace ENT_APP
                 },
                 new ExpandableDescription
                 {
-                    title = "What to expect",
+                    Title = "What to expect",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -89,7 +89,7 @@ namespace ENT_APP
                 },
                       new ExpandableDescription
                 {
-                    title = "What are the risks of a laryngectomy?",
+                    Title = "What are the risks of a laryngectomy?",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -108,7 +108,7 @@ namespace ENT_APP
                 },
                               new ExpandableDescription
                 {
-                    title = "What else should I know?",
+                    Title = "What else should I know?",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -132,7 +132,7 @@ namespace ENT_APP
                 },
                                       new ExpandableDescription
                 {
-                    title = "Caring for your stoma",
+                    Title = "Caring for your stoma",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -145,7 +145,7 @@ namespace ENT_APP
                 },
                 new ExpandableDescription
                 {
-                    title = "Emotions after surgery",
+                    Title = "Emotions after surgery",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -156,7 +156,7 @@ namespace ENT_APP
                 },
                 new ExpandableDescription
                 {
-                    title = "How can I help my recovery?",
+                    Title = "How can I help my recovery?",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -167,7 +167,7 @@ namespace ENT_APP
                 },
                 new ExpandableDescription
                 {
-                    title = "When to call my doctor",
+                    Title = "When to call my doctor",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -178,7 +178,7 @@ namespace ENT_APP
                 },
                 new ExpandableDescription
                 {
-                    title = "Questions to ask your doctor:",
+                    Title = "Questions to ask your doctor:",
                     //downURL = "downImage.png",
                     //upURL = "upImage.png",
                     IsVisible = false,
@@ -224,7 +224,7 @@ namespace ENT_APP
 
     public class ExpandableDescription
     {
-        public string title { get; set; }
+        public string Title { get; set; }
         public bool IsVisible { get; set; }
         public ObservableCollection<InnerDescription> Descriptions { get; set; }
         //public string downURL { get; set; }
